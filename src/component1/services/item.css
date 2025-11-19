@@ -1,0 +1,17 @@
+.header{
+
+position: relative;
+top: 550px;
+background-image: url("../../assets1/images/bg.jpg") ;
+background-repeat: no-repeat;
+
+}
+
+.shadow{
+
+height: 100px;
+box-shadow: 20px 20px 20px red;
+width: 200px;
+top: 650px;
+
+}

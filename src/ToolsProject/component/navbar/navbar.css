@@ -1,0 +1,194 @@
+#all-items {
+  background-color: white;
+  width: 1200px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.headerTitle {
+  background: linear-gradient(135deg, #4361ee, #3a0ca3);
+  height: 250px;
+  border-radius: 40px 40px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  background-color: transparent;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 1rem;
+}
+
+#component {
+  text-decoration: none;
+  color: rgb(85, 85, 90);
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(235, 229, 229);
+  border: 2px solid rgb(184, 180, 180);
+  border-radius: 10px;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+  left: 40px;
+  margin-right: 80px;
+  transition: all 0.3s ease;
+}
+
+#component:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #4361ee;
+  color: white;
+}
+
+#list {
+  text-decoration: none;
+  color: black;
+}
+
+/* Enhanced Navbar Styles */
+nav {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode navbar */
+body.dark-mode nav {
+  background: linear-gradient(135deg, #2d3135, #1a1d21);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav .font-extrabold {
+  background: linear-gradient(135deg, #4361ee, #3a0ca3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.75rem;
+}
+
+/* Dark mode site name */
+body.dark-mode nav .font-extrabold {
+  background: linear-gradient(135deg, #5d7cff, #6a67d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+nav ul li .font-bold {
+  position: relative;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}
+
+nav ul li .font-bold:hover {
+  color: #4361ee !important;
+  background-color: rgba(67, 97, 238, 0.1);
+}
+
+/* Dark mode navigation links */
+body.dark-mode nav ul li .font-bold {
+  color: #adb5bd !important;
+}
+
+body.dark-mode nav ul li .font-bold:hover {
+  color: #5d7cff !important;
+  background-color: rgba(93, 124, 255, 0.1);
+}
+
+nav ul li .font-bold.active {
+  color: #4361ee !important;
+  background-color: rgba(67, 97, 238, 0.15);
+}
+
+/* Dark mode active link */
+body.dark-mode nav ul li .font-bold.active {
+  color: #5d7cff !important;
+  background-color: rgba(93, 124, 255, 0.15);
+}
+
+.font-bold.text-orange-600.border {
+  background: linear-gradient(135deg, #ff9e00, #ff6b00);
+  color: white !important;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.2);
+}
+
+/* Dark mode login/logout button */
+body.dark-mode .font-bold.text-orange-600.border {
+  background: linear-gradient(135deg, #ffaa2b, #ff7b2b);
+  box-shadow: 0 4px 12px rgba(255, 123, 43, 0.2);
+}
+
+.font-bold.text-orange-600.border:hover {
+  background: linear-gradient(135deg, #ffaa2b, #ff7b2b);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 107, 0, 0.3);
+}
+
+/* Dark mode login/logout button hover */
+body.dark-mode .font-bold.text-orange-600.border:hover {
+  background: linear-gradient(135deg, #ffbb5e, #ff8c5e);
+  box-shadow: 0 6px 15px rgba(255, 123, 43, 0.3);
+}
+
+.p-2.rounded-full:hover {
+  background-color: rgba(67, 97, 238, 0.1) !important;
+}
+
+/* Dark mode icon button hover */
+body.dark-mode .p-2.rounded-full:hover {
+  background-color: rgba(93, 124, 255, 0.1) !important;
+}
+
+.absolute.left-0.mt-2.w-32.bg-white.border.shadow-lg.rounded-lg {
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Dark mode language dropdown */
+body.dark-mode .absolute.left-0.mt-2.w-32.bg-white.border.shadow-lg.rounded-lg {
+  background-color: #2d3135;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.block.w-full.text-right.px-4.py-2.hover\:bg-gray-100 {
+  transition: all 0.2s ease;
+}
+
+.block.w-full.text-right.px-4.py-2.hover\:bg-gray-100:hover {
+  background-color: rgba(67, 97, 238, 0.1) !important;
+  color: #4361ee !important;
+}
+
+/* Dark mode language dropdown items */
+body.dark-mode .block.w-full.text-right.px-4.py-2.hover\:bg-gray-100 {
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .block.w-full.text-right.px-4.py-2.hover\:bg-gray-100:hover {
+  background-color: rgba(93, 124, 255, 0.1) !important;
+  color: #5d7cff !important;
+}
+
+.font-bold.text-orange-600 {
+  font-weight: 700 !important;
+}

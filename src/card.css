@@ -1,0 +1,39 @@
+.card{
+
+    box-shadow: 0 0 0 rgba(0 , 0 , 0 , .2);
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    
+    }
+    
+    .card-body{
+    
+    padding : 10px 20px ;
+    
+    }
+    
+    .card-title{
+    
+    font-weight: bold ;
+    font-size: 3rem ;
+    
+    }
+    .card-text {
+    
+    text-align: justify;
+    padding: 10px 0;
+    font-size: 20px;
+    
+    }
+    
+ .img-card{
+
+max-width: 100%;
+
+ }
+
+ .col{
+
+    width : 33.33% ;
+
+ }

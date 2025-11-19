@@ -1,0 +1,118 @@
+/* Enhanced Footer Styles */
+footer {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #e2e8f0;
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 0 2rem;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+}
+
+footer .mb-9.text-lg.font-semibold {
+  color: white;
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+footer .mb-9.text-lg.font-semibold::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  border-radius: 2px;
+}
+
+footer .inline-block.text-base.leading-loose {
+  color: #cbd5e1;
+  transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+footer .inline-block.text-base.leading-loose:hover {
+  color: var(--accent-color);
+  transform: translateX(5px);
+}
+
+footer .text-body-color {
+  color: #94a3b8;
+}
+
+footer .border.border-stroke {
+  border-color: #334155;
+  transition: all 0.3s ease;
+}
+
+footer .border.border-stroke:hover {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+footer .absolute.bottom-0.left-0.z-\[-1\] {
+  opacity: 0.3;
+}
+
+footer .absolute.right-10.top-10.z-\[-1\] {
+  opacity: 0.2;
+}
+
+footer .text-base.text-body-color {
+  color: #94a3b8;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+/* Enhanced Footer Button Styles */
+.mr-3.flex.h-8.w-8.items-center.justify-center.rounded-full {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.mr-3.flex.h-8.w-8.items-center.justify-center.rounded-full:hover {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  footer {
+    padding: 3rem 0 1.5rem;
+  }
+  
+  footer .mb-10.w-full {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .mb-10.w-full {
+    text-align: center;
+  }
+  
+  footer .space-y-3.relative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer .mb-9.text-lg.font-semibold::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

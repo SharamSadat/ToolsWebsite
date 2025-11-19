@@ -1,0 +1,17 @@
+.div {
+  text-align: center;
+  font-family: "Lalezar", sans-serif;
+}
+
+.artical {
+  background-color: antiquewhite;
+  height: 30px;
+}
+
+.artical a {
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 2px solid rgb(51, 50, 50);
+  border-radius: 20px;
+  margin: 0 10px;
+}

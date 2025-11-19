@@ -1,0 +1,29 @@
+.messageBox{
+    
+    width: 350px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px; 
+
+    } 
+
+ .success{
+    border: 2px solid green;
+    background-color: rgb(127, 225, 127);
+}
+
+
+.failed{
+    border: 2px solid red;
+    background-color: rgb(250, 138, 138);
+}
+
+
+button{
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 10px 15px;
+} 

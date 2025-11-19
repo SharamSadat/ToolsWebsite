@@ -1,0 +1,56 @@
+
+.container{
+
+    height: 200px;
+
+}
+
+.screen{
+
+    width: 360px;
+height: 100px;
+line-height: 100px;
+padding: 0 20px;
+font-size: 30px;
+text-align: right;
+background: #282634;
+color: white;
+
+}
+
+.buttons{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+
+
+    .buttons button{
+
+        width: 100px;
+        height: 80px; 
+        cursor: pointer; 
+        border : 0 ;
+         outline: 0;
+        color: white;
+        background-color: #282634;
+        border : 1px solid rgb(92, 92, 92);
+        font-size: 25px;  
+        
+        }
+
+.buttons .span {
+
+    background-color: #56cbdb;
+    color: #282634;
+    font-weight: bold;
+
+}
+
+.buttons .twocolor{
+
+    width: 200px;
+    
+    }
+

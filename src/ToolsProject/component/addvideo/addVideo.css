@@ -1,0 +1,118 @@
+/* Light mode styles (default) */
+.font-bold {
+  font-weight: bold;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.pr-\[205px\] {
+  padding-right: 205px;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pr-\[205px\] {
+  padding-right: 205px;
+}
+
+/* Responsive title styles */
+.responsive-title {
+  width: 100%;
+  text-align: center;
+  padding-right: 0 !important;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* Video container for responsive layout */
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Responsive video styles */
+.responsive-video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Dark mode styles */
+body.dark-mode .dark-mode-text {
+  color: #f8f9fa;
+}
+
+body.dark-mode .dark-mode-video {
+  background-color: #2d3135;
+  border: 1px solid #495057;
+}
+
+body.dark-mode h4 {
+  color: #f8f9fa;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+  .responsive-title {
+    font-size: 28px;
+    padding-top: 2rem;
+  }
+  
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    gap: 15px;
+  }
+  
+  .responsive-video {
+    max-width: 100%;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .responsive-title {
+    font-size: 24px;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-container {
+    padding: 0 5px;
+    gap: 10px;
+  }
+  
+  .responsive-video {
+    width: 95%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .text-\[35px\] {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.add {
+  position: relative;
+  right: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.delete {
+  position: relative;
+  text-decoration: line-through;
+  bottom: 37px;
+  left: 120px;
+}

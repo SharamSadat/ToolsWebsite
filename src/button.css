@@ -1,0 +1,13 @@
+.add-card{
+    
+    all: unset;
+    background: #eb9616;
+    color: #fff;
+    width: 90%;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 15px 0 ;
+    
+    }

@@ -1,0 +1,34 @@
+.container {
+
+width: 350px;
+height: 100px;
+line-height: 100px;
+text-align: center;
+font-size: 25px;
+
+}
+
+.success{
+
+background-color: green;
+border: 2px solid green ;
+
+}
+
+.failed{
+
+    background-color: red;
+    border: 2px solid gray ;
+    
+    }
+
+button{
+
+display: block;
+margin: 20px auto;
+font-size: 20px;
+padding: 10px 15px;
+background-color: green;
+border-radius: 50%;
+
+}

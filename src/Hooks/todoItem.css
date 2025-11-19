@@ -1,0 +1,19 @@
+.todoitem {
+  border: 3px solid rgb(190, 6, 6);
+  display: flex;
+  margin: 10px;
+  max-width: 550px;
+  position: relative;
+  left: 40px;
+}
+
+.name {
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+.Btn-delete {
+  position: relative;
+  left: 300px;
+}

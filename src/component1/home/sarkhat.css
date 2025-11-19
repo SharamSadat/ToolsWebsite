@@ -1,0 +1,59 @@
+
+body{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.cont{
+
+border: 1px solid balck ;
+color: white ;
+margin: 30px ;
+padding: 20px ;
+position: relative ;
+top: 200px ;
+font-variant: small-caps;
+direction: rtl;
+justify-items: center;
+
+}
+
+.h3{
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 650px;
+    width: max-content;
+    bottom: 40px;
+
+
+}
+
+.info{
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 650px;
+    bottom: 40px;
+
+
+}
+
+img{
+
+height: 100px;
+justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 650px;
+    bottom: 40px;
+
+
+}
+
+

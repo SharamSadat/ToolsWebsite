@@ -1,0 +1,103 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "image": "https://dl.next1code.ir/images/react/article1.webp",
+      "title": "مقاله اول",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": " میلاد بهرامـــی",
+      "category": "برنامه نویسی وب",
+      "readingTime": "5"
+    },
+    {
+      "id": "2",
+      "image": "https://dl.next1code.ir/images/react/article2.webp",
+      "title": "مقاله دوم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "سالار حقیقت",
+      "category": "رابط کاربری",
+      "readingTime": "11"
+    },
+    {
+      "id": "3",
+      "image": "https://dl.next1code.ir/images/react/article3.webp",
+      "title": "مقاله سوم ",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "کریم باقری",
+      "category": "طراحی وب",
+      "readingTime": "12"
+    },
+    {
+      "id": "4",
+      "image": "https://dl.next1code.ir/images/react/article4.webp",
+      "title": "مقاله چهارم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "محمد محمدی",
+      "category": "برنامه نویسی وب",
+      "readingTime": "16"
+    },
+    {
+      "id": "5",
+      "image": "https://dl.next1code.ir/images/react/article5.webp",
+      "title": "مقاله پنجم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "اصفر",
+      "category": "هوش مصنوعی",
+      "readingTime": "13"
+    },
+    {
+      "id": "6",
+      "image": "https://dl.next1code.ir/images/react/article6.webp",
+      "title": "مقاله ششم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "عباس",
+      "category": "رابط کاربری",
+      "readingTime": "15"
+    },
+    {
+      "id": "7",
+      "image": "https://dl.next1code.ir/images/react/article7.webp",
+      "title": "مقاله هفتم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "عباس",
+      "category": "برنامه نویسی وب",
+      "readingTime": "20"
+    },
+    {
+      "id": "8",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "title": "مقاله هشتم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "عباس",
+      "category": "رابط کاربری",
+      "readingTime": "6"
+    },
+    {
+      "id": "9",
+      "title": "مقاله نهم",
+      "desc": " لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است ",
+      "writter": "سید مهرالله",
+      "category": "تکنالوژی",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": "12"
+    },
+    {
+      "id": "10",
+      "title": "مقاله دهم",
+      "desc": " لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است ",
+      "writter": "شهرام",
+      "category": "محاسبات ابری و مزایای آن",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": "10"
+    },
+    {
+      "id": "5a92",
+      "title": "مقاله شماره یازدهم",
+      "desc": " لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است ",
+      "writter": "مبین نیازی",
+      "category": "تعامل انسان با کامپیوتر",
+      "image": "\"https://dl.next1code.ir/images/react/article8.webp\"",
+      "readingTime": "20"
+    }
+  ]
+}
